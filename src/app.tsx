@@ -51,6 +51,7 @@ export const layout = ({
 }): BasicLayoutProps => {
   return {
     rightContentRender: () => <RightContent />,
+    breakpoint:false,
     disableContentMargin: false,
     footerRender: () => <Footer />,
     onPageChange: () => {
