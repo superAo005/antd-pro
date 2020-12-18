@@ -38,6 +38,12 @@
     component: './ListTableList',
   },
   {
+    name: 'test',
+    icon: 'table',
+    path: '/test',
+    component: './test',
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
